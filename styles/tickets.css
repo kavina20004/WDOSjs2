@@ -1,0 +1,184 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav a {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.nav a:hover{
+    color: #242424;
+}
+.nav .active{
+    color: #373737
+}
+
+.nav h2 {
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.topic {
+    height: 100px;
+    background: #333 ;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    } 
+    
+.topic h2 {
+    color: white;
+}
+
+
+.PricesTable {
+    border-collapse: collapse;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    position: sticky;
+    align-items: center;
+    border: 3px solid rgba(15, 27, 4, 0.901);
+}
+
+.table h2 {
+    text-decoration: line-through;
+}
+
+.PricesTable th, .PricesTable td {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black; 
+}
+
+.PricesTable th {
+    background-color: rgb(177, 177, 177);
+}
+
+hr {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .summarytable {
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-collapse: collapse;
+    width: 39%;
+    height: 50%;
+    border: 3px solid rgba(15, 27, 4, 0.901);
+    position: sticky;
+}
+
+.summarytable th, .summarytable td {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black; 
+}
+
+.summarytable th {
+    background-color: rgb(177, 177, 177);
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 33%;
+    text-align: center;
+}
+
+  .datesSection, .timeList, .ticketSection {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .tickSec {
+    width: 100px;
+  }
+
+
+  .timeslots {
+    width: 270px;
+    height: 180px;
+}
+
+ .tickSec {
+    height: 30px;
+}
+
+.table-section {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+  .btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #373737;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+    float: right;
+    margin-right: 7%;
+  }
+  
+  .btn:hover {
+    background-color: #757474;
+  } 
+
+.footer {
+    margin-top: 10%;
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+.container {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .topic {
+        width: 100%;
+        height: auto;
+    }
+    
+
+}
+
